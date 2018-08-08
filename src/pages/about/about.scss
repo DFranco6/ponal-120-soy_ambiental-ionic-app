@@ -1,3 +1,79 @@
 page-about {
 
+	.about-header {
+	  //background-color: #FFFF;
+	  padding: 16px;
+	  width: 100%;
+	  min-height: 150px;
+	  text-align: center;
+	}
+
+	#logoa {
+	  max-width: 350px;
+	  min-height: 190px;
+	  margin-left: -15px;
+	  padding: 25px 0 20px 0;
+	}
+
+	#imgsoy1 {
+	  max-width: 450px;
+	  min-height: 110px;
+	  margin-left: -15px;
+	  padding: 25px 0 20px 0;
+	}
+
+
+	.about-info p {
+	  color: #697072;
+	  text-align: left;
+	}
+
+	.about-info ion-icon {
+	  color: color($colors, primary);
+	  width: 20px;
+	}
+
+	.md,
+	.wp {
+	  .about-info [text-right] {
+	    margin-right: 0;
+	  }
+	}
+
+	.ios .about-info {
+	  text-align: center;
+	}
+
+	.ios .about-info ion-icon {
+	  width: auto;
+	  margin-right: 10px;
+	}
+
+	  .fondo
+	  { 
+	    background-image: url('../../assets/imgs/fondo1.png') ;
+	    background-repeat: no-repeat ;
+	    background-size: cover ; /*background-size: auto|length|cover|contain|initial|inherit;*/
+	    background-position: center ;
+	    width: 100% ;
+	    position: relative ;
+	    border: none ;
+	  }
+
+	  .continuar {
+	    border: 0px solid #2e518b; /*anchura, estilo y color borde*/
+	    padding: 10px; /*espacio alrededor texto*/
+	    background-color: #35AE08; /*color botón*/
+	    color: #ffffff; /*color texto*/
+	    text-decoration: none; /*decoración texto*/
+	    text-transform: uppercase; /*capitalización texto*/
+	    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	    border-radius: 50px; /*bordes redondos*/
+	    text-align: center;
+	    float:none;
+	    display: inline-block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    float: none;
+	  }
 }
