@@ -10,14 +10,14 @@ page-home {
 }
 
 #logoa {
-  max-width: 350px;
-  min-height: 190px;
+  max-width: 300px;
+  min-height: 150px;
   margin-left: -15px;
   padding: 25px 0 20px 0;
 }
 
 #imgsoy1 {
-  max-width: 450px;
+  max-width: 350px;
   min-height: 110px;
   margin-left: -15px;
   padding: 25px 0 20px 0;
@@ -27,6 +27,13 @@ page-home {
 .about-info p {
   color: #697072;
   text-align: left;
+}
+
+.strong {
+  margin-right: 0;
+  text-align: center;
+  color: #000000;
+  font-family: Comic Sans MS;
 }
 
 .about-info ion-icon {
@@ -52,7 +59,7 @@ page-home {
 
   .fondo
   { 
-    background-image: url('../../assets/imgs/fondo1.png') ;
+    background-image: url('../../assets/imgs/fondo2.png') ;
     background-repeat: no-repeat ;
     background-size: cover ; /*background-size: auto|length|cover|contain|initial|inherit;*/
     background-position: center ;

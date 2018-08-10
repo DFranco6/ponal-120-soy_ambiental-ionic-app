@@ -1,31 +1,5 @@
 <ion-header>
   <ion-navbar color="secondary">
-		<ion-menu [content]="content">
-				<ion-header>
-				  <ion-toolbar>
-					<ion-title>Menu</ion-title>
-				  </ion-toolbar>
-				</ion-header>
-				<ion-content>
-				  <ion-list>
-					<button ion-item (click)="openPage(homePage)">
-					  Home
-					</button>
-					<button ion-item (click)="openPage(friendsPage)">
-					  Friends
-					</button>
-					<button ion-item (click)="openPage(eventsPage)">
-					  Events
-					</button>
-					<button ion-item (click)="closeMenu()">
-					  Close Menu
-					</button>
-				  </ion-list>
-				</ion-content>
-			  </ion-menu>
-			  
-			  <ion-nav id="nav" #content [root]="rootPage"></ion-nav>
-
     <!-- icono de contacto -->
 	<ion-buttons start>
 		<button ion-button icon-only>
@@ -49,58 +23,33 @@
 
 <ion-content padding class="fondo">
 	<ion-card>
-		<img src="assets/imgs/caja1.jpg" width="120" height="400"/>
- 
+		<img src="assets/imgs/caja1.jpg" width="60" height="200"/>
 	</ion-card>
+	<br>
+	<br>
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-4">
-				<h4>Soy Ambiental</h4>
-				<p>
-					Soy Ambiental es una iniciativa del Fedesoft, Ministerio de las TICs y la Policía Nacional Colombia que tiene como objetivo promover una conciencia ambiental, con un concepto nacional unificado, que sea visible a los diferentes sectores de la sociedad de forma incluyente y participativa, para así inducir a comportamientos ambientalmente responsables, encaminados hacia la preservación del medio ambiente, mejoramiento de la calidad de vida y el uso racional de los recursos naturales.
-				</p>
-			</div>
+	<h4 class="strong">Soy Ambiental</h4>
+	<p class="strong" align="center">
+		Soy Ambiental es una iniciativa del Fedesoft, Ministerio de las TICs y la Policía Nacional Colombia que tiene como objetivo promover una conciencia ambiental, con un concepto nacional unificado, que sea visible a los diferentes sectores de la sociedad de forma incluyente y participativa, para así inducir a comportamientos ambientalmente responsables, encaminados hacia la preservación del medio ambiente, mejoramiento de la calidad de vida y el uso racional de los recursos naturales.
+	</p>
 
-			<div class="col-md-4">
-				<p class="">		
-    				<img src="assets/imgs/logoa.gif" id="logoa" align="center">
-					<a class="app" href="https://marvelapp.com/70691ad/screen/45499534" >
-						<img src="imagenes\app.jpg" alt="app" width="250" height="100" align="center">
-					</a>
-				</p>
-			</div>
+	<div class="about-header">
+		<img src="assets/imgs/logoa.gif" id="logoa">
+	</div>
+			
+	<br>
+	<h4 class="strong">¿Qué es?</h4>
+	<p class="strong">
+		Soy Ambiental es una aplicacion que busca implicar a la comunidad en general un indicador que permite medir y evaluar el impacto sobre el Planeta de una determina forma de vida en relación con la capacidad de la naturaleza para renovar los recursos al servicio de la humanidad. El objetivo de esta herramienta es que los seres humanos, ya sea en grupo o de manera individual, identifiquen y corrijan aquellas acciones que no contribuyen a un estilo de vida sostenible.	
+	</p>
+	<br>
+	<br>
 
-			<div class="col-md-4">
-				<h4>¿Qué es?</h4>
-				<p>
-					Soy Ambiental es una aplicacion que busca implicar a la comunidad en general un indicador que permite medir y evaluar el impacto sobre el Planeta de una determina forma de vida en relación con la capacidad de la naturaleza para renovar los recursos al servicio de la humanidad. El objetivo de esta herramienta es que los seres humanos, ya sea en grupo o de manera individual, identifiquen y corrijan aquellas acciones que no contribuyen a un estilo de vida sostenible.	
-				</p>
-			</div>
-		</div>
-		</div>
-
-		<header>
-			<div class="container">
-				<h4>¿Cómo funciona?</h4>
-				<p>
-					
-					Soy Ambiental funciona a través de una medición que hace un cálculo según los hábitos que usted tiene en su estilo de vida. Cada comportamiento evaluado obtiene un puntaje, el cual al ser sumado con los obtenidos en las demás preguntas genera un resultado equivalente a su huella ecológica.
-
-					Este resultado determina si está usted en sintonía con el promedio de consumo sostenible, y si no, le indicará cuánto está gastando de más y en qué puede mejorar.
-
-					La calculadora de la huella ecológica para Colombia fue constituida con base en una investigación preliminar que involucró aspectos como el transporte, la alimentación, la vivienda y el consumo. A través de la página Web www.soyecolombiano.com se puede obtener mayor información de cómo calcular la huella ecológica.
-				</p>
-			</div>
-		</header>
-
-		
-
-		
-		<img src="imagenes\am1.png" alt="Italian Trulli" width="600" height="85">
-		<img src="imagenes\am2.png" alt="Italian Trulli" width="600" height="85">
-		
-
-
+	<h4 class="strong">¿Cómo funciona?</h4>
+	<p class="strong">		
+		Soy Ambiental funciona a través de una medición que hace un cálculo según los hábitos que usted tiene en su estilo de vida. Cada comportamiento evaluado obtiene un puntaje, el cual al ser sumado con los obtenidos en las demás preguntas genera un resultado equivalente a su huella ecológica.
+		Este resultado determina si está usted en sintonía con el promedio de consumo sostenible, y si no, le indicará cuánto está gastando de más y en qué puede mejorar.
+		La calculadora de la huella ecológica para Colombia fue constituida con base en una investigación preliminar que involucró aspectos como el transporte, la alimentación, la vivienda y el consumo. A través de la página Web www.soyecolombiano.com se puede obtener mayor información de cómo calcular la huella ecológica.
+	</p>
 
 </ion-content>

@@ -8,6 +8,7 @@ page-about {
 	  text-align: center;
 	}
 
+
 	#logoa {
 	  max-width: 350px;
 	  min-height: 190px;
@@ -32,11 +33,22 @@ page-about {
 	  color: color($colors, primary);
 	  width: 20px;
 	}
+	
+	.strong {
+			margin-right: 0;
+			text-align: justify;
+			color: #000000;
+			font-family: Comic Sans MS;
+	}
 
 	.md,
-	.wp {
+	.wp,
+	 {
 	  .about-info [text-right] {
-	    margin-right: 0;
+			margin-right: 0;
+			//text-align: justify;
+			color: #697072;
+			//style=”text-align: justify;”  
 	  }
 	}
 
@@ -46,12 +58,13 @@ page-about {
 
 	.ios .about-info ion-icon {
 	  width: auto;
-	  margin-right: 10px;
+		margin-right: 10px;
+		
 	}
 
 	  .fondo
 	  { 
-	    background-image: url('../../assets/imgs/fondo1.png') ;
+	    background-image: url('../../assets/imgs/fondo2.png') ;
 	    background-repeat: no-repeat ;
 	    background-size: cover ; /*background-size: auto|length|cover|contain|initial|inherit;*/
 	    background-position: center ;
