@@ -7,7 +7,7 @@
         </button>
       </ion-buttons>-->
     
-    <ion-title>Soy Ambiental App</ion-title>
+    <ion-title>Inicio</ion-title>
 
     <!-- icono de busqueda 
     <ion-buttons end>
@@ -20,28 +20,42 @@
 
 <ion-content padding class="fondo"> <!--class="fondo"-->
 
-  <p class="strong">Esta aplicación esta creada para usted y la comunidad en general tengan una opción para informar de manera fácil los hechos que afecten la naturaleza y el medio ambiente.</p>
-  <br>
+
+
   
-  <div class="about-header">
-    <img src="assets/imgs/logoa.gif" id="logoa">
-  </div>
+  <ion-grid class="strong">
+    <ion-row>
+      <ion-col col-12 col-sm-9 col-md-5 col-lg-4 col-xl-3>
+        <br><br><br>
+        Esta aplicación esta creada para usted y la comunidad en general tengan una opción 
+        para informar de manera fácil los hechos que afecten la naturaleza y el medio ambiente.
+        <br>
+        <img src="assets/imgs/logoa.gif" id="logoa">
+        <br>
+        Gracias por descargar la App Soy Ambiental y contribuir con el medio ambiente...
+      </ion-col>
 
-  <p class="strong">Gracias por descargar la App Soy Ambiental y contribuir con el medio ambiente...</p>
+      <ion-col col-12 col-sm-9 col-md-7 col-lg-4 col-xl-3>
+        <br><br><br><br><br><br>
+        <h1> Unete hoy a Soy Ambiental App.</h1>
+        <p>
+          <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
+          <br>
+          <button ion-button (click)="continua()" class="botonhome1">Iniciar sesión</button>
+        </p>
 
-  <br>
-  <br>
-  <div class="about-header">
-    <img src="assets/imgs/imgsoy1.gif" id="imgsoy1">
-  </div>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
 
-  <br>
-  <br>
 
-  <!-- creacion del boton continuar -->
+
+
+
+  <!-- creacion del boton continuar 
   <p align="center">
     <button ion-button (click)="continua()" class="continuar" align="center">Continuar</button>
-  </p>
+  </p>-->
 
   <!-- Float the icon left 
   <button ion-button icon-start>

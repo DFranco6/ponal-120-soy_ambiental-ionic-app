@@ -23,10 +23,9 @@ public pages: Array<{titulo: string, Component: any, icon: string}>;
     this.pages = [
       //confiracion de menus
       { titulo: 'Inicio',     Component: HomePage,    icon: 'home'},
-      { titulo: 'Mi Perfil',     Component: AboutPage,  icon: 'person'},
+      { titulo: 'Descargas',     Component: DownloadPage, icon: 'md-cloud-download'},
       { titulo: 'Contacto',     Component: ContactPage,     icon: 'mail'},
-      { titulo: 'Acerca De',     Component: DownloadPage, icon: 'information-circle'}
-
+      { titulo: 'Acerca De',     Component: AboutPage,  icon: 'information-circle'}
     ];
 
   

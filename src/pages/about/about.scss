@@ -23,7 +23,14 @@ page-about {
 	  padding: 25px 0 20px 0;
 	}
 
+	.strong {
+		margin-right: 0;
+		text-align: justify;
+		color: #000000;
+		font-family: Comic Sans MS;
+	}
 
+/*
 	.about-info p {
 	  color: #697072;
 	  text-align: left;
@@ -34,12 +41,7 @@ page-about {
 	  width: 20px;
 	}
 	
-	.strong {
-			margin-right: 0;
-			text-align: justify;
-			color: #000000;
-			font-family: Comic Sans MS;
-	}
+
 
 	.md,
 	.wp,
@@ -60,7 +62,7 @@ page-about {
 	  width: auto;
 		margin-right: 10px;
 		
-	}
+	}*/
 
 	  .fondo
 	  { 
@@ -79,7 +81,7 @@ page-about {
 	    background-color: #35AE08; /*color botón*/
 	    color: #ffffff; /*color texto*/
 	    text-decoration: none; /*decoración texto*/
-	    text-transform: uppercase; /*capitalización texto*/
+	    //text-transform: uppercase; /*capitalización texto*/
 	    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
 	    border-radius: 50px; /*bordes redondos*/
 	    text-align: center;
