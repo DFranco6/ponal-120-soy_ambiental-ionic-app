@@ -1,0 +1,159 @@
+page-menu {
+    .about-header {
+        //background-color: #FFFF;
+         padding: 16px;
+         width: 100%;
+         min-height: 150px;
+         text-align: center;
+       }
+       
+       .ion-card{
+        //background-color: #FFFF;
+        padding: 16px;
+        width: 50%;
+        min-height: 150px;
+        text-align: center;
+       }
+       #logoa {
+         max-width: 300px;
+         min-height: 150px;
+         margin-left: -15px;
+         padding: 25px 0 20px 0;
+       }
+       
+       #imgsoy1 {
+         max-width: 350px;
+         min-height: 110px;
+         margin-left: -15px;
+         padding: 25px 0 20px 0;
+       }
+       
+       
+       .about-info p {
+         color: #697072;
+         text-align: left;
+       }
+       
+       .strong {
+         margin-right: 0;
+         text-align: center;
+         color: #000000;
+         font-family: Comic Sans MS;
+       }
+       
+       .strong1 {
+         margin-right: 0;
+         //text-align: center;
+         color: #000000;
+         font-family: Comic Sans MS;
+       }
+       
+       .about-info ion-icon {
+         color: color($colors, primary);
+         width: 20px;
+       }
+       
+       .md,
+       .wp {
+         .about-info [text-right] {
+           margin-right: 0;
+         }
+       }
+       
+       .ios .about-info {
+         text-align: center;
+       }
+       
+       .ios .about-info ion-icon {
+         width: auto;
+         margin-right: 10px;
+       }
+       
+         .fondo
+         { 
+           background-image: url('../../assets/imgs/fondo2.png') ;
+           background-repeat: no-repeat ;
+           background-size: cover ; /*background-size: auto|length|cover|contain|initial|inherit;*/
+           background-position: center ;
+           width: 100% ;
+           position: relative ;
+           border: none ;
+         }
+       
+         .botonhome1{
+           padding: 10px;
+           font-family: Comic Sans MS;
+           text-align: center;
+           float:none;
+           display: inline-block;
+           margin-left: auto;
+           margin-right: auto;
+           float: none;
+           border-radius: 60px; /*bordes redondos*/
+           width: 50% ;
+           border: 0.5px solid rgba(134, 221, 126, 0.801); 
+           color: rgba(12, 107, 4, 0.801); 
+           background-color: rgba(255, 255, 255, 0.281); /*color botón*/
+         }
+       
+         .botonhome2{
+           border: 0.5px solid rgba(12, 107, 4, 0.801) ;
+           color: rgba(255, 255, 255, 0.801); 
+           background-color: rgba(12, 107, 4, 0.801); /*color botón*/
+           padding: 10px;
+           font-family: Comic Sans MS;
+           text-align: center;
+           float:none;
+           display: inline-block;
+           margin-left: auto;
+           margin-right: auto;
+           float: none;
+           border-radius: 60px; /*bordes redondos*/
+           width: 50% ;
+         }
+       
+       
+         .continuar {
+           border: 0px solid #2e518b; /*anchura, estilo y color borde*/
+           padding: 10px; /*espacio alrededor texto*/
+           background-color: #35AE08; /*color botón*/
+           color: #ffffff; /*color texto*/
+           text-decoration: none; /*decoración texto*/
+           //text-transform: uppercase; /*capitalización texto*/
+           font-family: Comic Sans MS; /*'Helvetica', sans-serif tipografía texto*/
+           border-radius: 50px; /*bordes redondos*/
+           text-align: center;
+           float:none;
+           display: inline-block;
+           margin-left: auto;
+           margin-right: auto;
+           float: none;
+         }
+       
+       
+         .card-background-page {
+       
+           ion-card {
+             position: relative;
+             text-align: center;
+           }
+         
+           .card-title {
+             position: absolute;
+             top: 36%;
+             font-size: 2.0em;
+             width: 100%;
+             font-weight: bold;
+             color: #fff;
+           }
+         
+           .card-subtitle {
+             font-size: 1.0em;
+             position: absolute;
+             top: 52%;
+             width: 100%;
+             color: #fff;
+           }
+         
+         }
+}
