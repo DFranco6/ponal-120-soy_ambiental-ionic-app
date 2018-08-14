@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar color="secondary">
     <ion-title>menu</ion-title>
   </ion-navbar>
 
@@ -14,121 +14,34 @@
 
 
 <ion-content padding class="fondo">
-    <ion-grid class="strong">
+  <ion-grid class="strong">
+    <br><br><br><br>
+    <ion-row>
+      <ion-col col-xl-4>
+        <button ion-button (click)="continua()" class="botonhome1">Informar caso</button>
+        <button ion-button (click)="continua()" class="botonhome1">Registrarse</button>
+        <button ion-button (click)="continua()" class="botonhome1">Otros reportes</button>
+      </ion-col>
       <br>
-      <ion-row>
-        <ion-col col-xl-4>
-         
-              Informar caso <br>
-              <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-           
-              <br>
-              <ion-card>
-                <ion-card-header>
-                  Mis casos
-                </ion-card-header>
-                <ion-card-content>
-                  <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                </ion-card-content>
-              </ion-card>
-              <br>
-              <ion-card>
-                <ion-card-header>
-                  Otros reportes
-                </ion-card-header>
-                <ion-card-content>
-                  <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                </ion-card-content>
-              </ion-card>
-        </ion-col>
-        <br>
-        <ion-col col-xl-4>
-            <ion-card>
-              <ion-card-header>
-                Muro de casos
-              </ion-card-header>
-              <ion-card-content>
-                <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                  </ion-card-content>
-                </ion-card>
-                <br>
-                <ion-card>
-                  <ion-card-header>
-                    Mi pefil
-                  </ion-card-header>
-                  <ion-card-content>
-                    <ion-icon name="md-contact"></ion-icon>
-                    <!--<button ion-button (click)="continua()" class="botonhome2">Registrarse</button>-->
-                  </ion-card-content>
-                </ion-card>
-                <br>
-                <ion-card>
-                  <ion-card-header>
-                    Conocenos
-                  </ion-card-header>
-                  <ion-card-content>
-                    <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                  </ion-card-content>
-                </ion-card>
-          </ion-col>
-          <br>
-          <ion-col col-xl-4>
-              <ion-card>
-                <ion-card-header>
-                  Tiempo y Clima
-                </ion-card-header>
-                <ion-card-content>
-                  <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                    </ion-card-content>
-                  </ion-card>
-                  <br>
-                  <ion-card>
-                    <ion-card-header>
-                      Maltrato animal
-                    </ion-card-header>
-                    <ion-card-content>
-                      <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                    </ion-card-content>
-                  </ion-card>
-                  <br>
-                  <ion-card>
-                    <ion-card-header>
-                      Ayuda
-                    </ion-card-header>
-                    <ion-card-content>
-                      <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                    </ion-card-content>
-                  </ion-card>
-            </ion-col>
-            <br>
-            <ion-col col-xl-4>
-                <ion-card>
-                  <ion-card-header>
-                    Puntos ambientales
-                  </ion-card-header>
-                  <ion-card-content>
-                    <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                      </ion-card-content>
-                    </ion-card>
-                    <br>
-                    <ion-card>
-                      <ion-card-header>
-                        Noticias ambientales
-                      </ion-card-header>
-                      <ion-card-content>
-                        <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                      </ion-card-content>
-                    </ion-card>
-                    <br>
-                    <ion-card>
-                      <ion-card-header>
-                        Normatividad ambiental
-                      </ion-card-header>
-                      <ion-card-content>
-                        <button ion-button (click)="continua()" class="botonhome2">Registrarse</button>
-                      </ion-card-content>
-                    </ion-card>
-              </ion-col>
-          </ion-row>
-          </ion-grid>
-  </ion-content>
+      <ion-col col-xl-4>
+        <button ion-button (click)="continua()" class="botonhome1">Muro de casos</button>
+        <button ion-button (click)="continua()" class="botonhome1">Mi pefil</button>
+        <button ion-button (click)="continua()" class="botonhome1">Conocenos</button>
+      </ion-col>
+      <br>
+      <ion-col col-xl-4>
+        <button ion-button (click)="continua()" class="botonhome1">Tiempo y Clima</button>
+        <button ion-button (click)="continua()" class="botonhome1">Maltrato animal</button>
+        <button ion-button (click)="continua()" class="botonhome1">Ayuda</button>
+      </ion-col>
+      <br>
+      <ion-col col-xl-4>
+        <button ion-button (click)="continua()" class="botonhome1">Puntos ambientales</button>
+        <button ion-button (click)="continua()" class="botonhome1">Noticias ambientales</button>
+        <button ion-button (click)="continua()" class="botonhome1">Normatividad ambiental</button>
+      </ion-col>
+    </ion-row>
+
+    <img src="assets/imgs/hierba2.png" >
+  </ion-grid>
+</ion-content>

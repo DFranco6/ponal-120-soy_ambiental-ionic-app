@@ -15,8 +15,5 @@ export class HomePage {
   continua(){
     this.navCtrl.push(AboutPage);
   }
-// clase menu
-  menu(){
-    this.navCtrl.push(MenuPage);
-  }
+
 }
