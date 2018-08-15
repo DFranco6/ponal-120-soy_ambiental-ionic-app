@@ -3,6 +3,8 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 import { AboutPage } from '../about/about';
 import { FormBuilder, FormGroup, Validators} from '@angular/forms';
 import { LoginPage } from '../login/login';
+import { HomePage } from '../home/home';
+
 /**
  * Generated class for the RegistrarsePage page.
  *
@@ -22,6 +24,7 @@ export class RegistrarsePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public fb: FormBuilder, public alertCtrl: AlertController) {
     this.myregistro = {};
+    
    /* this.myregistro = this.fb.group({
       name: ['', [Validators.required]],
       company: ['', [Validators.required]],
@@ -31,6 +34,22 @@ export class RegistrarsePage {
       password: ['', [Validators.required]],
     });*/
   }
+
+  showAlert() {
+    const alert = this.alertCtrl.create({
+      title: '<h4 align="center"> Registro exitoso</h4>',
+      subTitle: '<h6 align="justify">Ya haces parte del grupo soy ambiental, ingresa con tu usuario, correo o celular...</h6>',
+      buttons: [
+        {
+          text: 'OK',
+          handler: data => {
+            this.navCtrl.push(HomePage); //console.log('Cancel clicked');
+          }
+        }]
+    });
+    alert.present();
+  }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegistrarsePage');

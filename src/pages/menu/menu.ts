@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { MuroPage } from '../muro/muro';
+import { TerminosPage } from '../terminos/terminos';
 
 /**
  * Generated class for the MenuPage page.
@@ -30,5 +31,9 @@ export class MenuPage {
 
   muro(){
     this.navCtrl.push(MuroPage);
+  }
+
+  terminos(){
+    this.navCtrl.push(TerminosPage);
   }
 }

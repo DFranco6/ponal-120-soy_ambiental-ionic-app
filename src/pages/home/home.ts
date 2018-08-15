@@ -26,8 +26,8 @@ export class HomePage {
   // clase para mensaje de ingreso desde boton loguin
   showPrompt() {
     const prompt = this.alertCtrl.create({
-      title: 'Inicio de Sesion',
-      message: "Ingrese nombre de usuario, correo o numero celular",
+      title: '<h4 align="center">Inicio de Sesion</h4>',
+      message: '<h6 align="justify">Ingrese nombre de usuario, correo o numero celular</h6>',
       inputs: [
         {
           name: 'Usuario',

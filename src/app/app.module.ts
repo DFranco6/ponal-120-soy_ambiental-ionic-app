@@ -16,6 +16,7 @@ import { RegistrarsePage } from '../pages/registrarse/registrarse';
 import { FormsModule } from '@angular/forms';
 import { CustomFormsModule } from 'ng2-validation'
 import { MuroPage } from '../pages/muro/muro';
+import { TerminosPage } from '../pages/terminos/terminos';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { MuroPage } from '../pages/muro/muro';
     MenuPage,
     RegistrarsePage,
     LoginPage,
-    MuroPage
+    MuroPage,
+    TerminosPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,9 @@ import { MuroPage } from '../pages/muro/muro';
     MenuPage,
     RegistrarsePage,
     LoginPage,
-    MuroPage
+    MuroPage,
+    TerminosPage
+
   ],
   providers: [
     StatusBar,
