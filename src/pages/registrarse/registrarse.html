@@ -1,0 +1,49 @@
+<!--
+  Generated template for the RegistrarsePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="secondary">
+    <ion-title>Registro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="fondo">
+  <ion-grid class="strong">
+    <ion-row>
+      <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+      </ion-col>
+
+      <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        <img src="assets/imgs/logoa.gif" id="logoa">
+        <br>
+        !Escribe un nombre de usuario, tu correo o tu numero celular para registrarte y comenzar a reportar¡.
+        <br><br>
+        <ion-list>
+          <ion-item color="secondary">
+            <ion-input type="text" [(ngModel)]="myregistro.usuario" name="usuario" #usuario="ngModel" 
+            pattern="[A-Za-z]{3}" required placeholder="Ingrese su nombre de usuario"></ion-input>
+          </ion-item>
+          <ion-item color="secondary">
+            <ion-input type="mail" [(ngModel)]="myregistro.correo" name="correo" #correo="ngModel" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required placeholder="Ingrese su correo electronico"></ion-input>
+          </ion-item>
+            <br>
+            <ion-icon name="md-key" >  Olvido sus credenciales</ion-icon>
+          <br><br>    
+          <button ion-button (click)="menu()" class="botonhome1">Registrate</button>
+        </ion-list>
+      </ion-col>
+      
+      <ion-col col-12 col-sm-9 col-md-6 col-lg-4 col-xl-3>
+        
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>       
+</ion-content>

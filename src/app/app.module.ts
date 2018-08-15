@@ -8,10 +8,14 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { DownloadPage } from '../pages/download/download';
-
+import { LoginPage } from '../pages/login/login';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { MenuPage } from '../pages/menu/menu';
+import { RegistrarsePage } from '../pages/registrarse/registrarse';
+import { FormsModule } from '@angular/forms';
+import { CustomFormsModule } from 'ng2-validation'
+import { MuroPage } from '../pages/muro/muro';
 
 @NgModule({
   declarations: [
@@ -21,11 +25,16 @@ import { MenuPage } from '../pages/menu/menu';
     HomePage,
     TabsPage,
     DownloadPage,
-    MenuPage
+    MenuPage,
+    RegistrarsePage,
+    LoginPage,
+    MuroPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    FormsModule,
+    CustomFormsModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,7 +44,10 @@ import { MenuPage } from '../pages/menu/menu';
     HomePage,
     TabsPage,
     DownloadPage,
-    MenuPage
+    MenuPage,
+    RegistrarsePage,
+    LoginPage,
+    MuroPage
   ],
   providers: [
     StatusBar,

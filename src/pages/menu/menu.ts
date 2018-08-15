@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
+import { MuroPage } from '../muro/muro';
 
 /**
  * Generated class for the MenuPage page.
@@ -25,5 +26,9 @@ export class MenuPage {
   // creacion de enlace Boton para ir a otra pagina
   continua(){
     this.navCtrl.push(AboutPage);
+  }
+
+  muro(){
+    this.navCtrl.push(MuroPage);
   }
 }

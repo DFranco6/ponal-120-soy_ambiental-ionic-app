@@ -40,4 +40,6 @@ public pages: Array<{titulo: string, Component: any, icon: string}>;
   goToPage(page){
     this.content.setRoot(page)
   }
+
+  
 }
